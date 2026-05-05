@@ -1,11 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body { margin: 0; }
-
-@media print {
-  aside, header, .no-print { display: none !important; }
-  main { margin-left: 0 !important; }
-  body { background: white !important; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }

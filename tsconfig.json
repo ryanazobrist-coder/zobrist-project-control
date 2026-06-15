@@ -1,35 +1,9 @@
-{
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
-}
+# Zobrist Project Control - V3 AIA Billing
+
+Adds AIA Billing / SOV workflow:
+- Pay applications with application number, invoice number, period, status, and previous paid/certified value.
+- SOV worksheet with scheduled value, previous work, this period, stored materials, total to date, percent, balance, and retainage.
+- Approved owner COs can be synced into SOV as new billing lines.
+- Summary + Continuation Sheet view can be printed/saved as PDF.
+
+Replace your existing repo files with this version and commit. Vercel will redeploy.

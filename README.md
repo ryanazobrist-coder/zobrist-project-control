@@ -1,5 +1,5 @@
-# Zobrist Project Control V2
-
-Contract Control Center rebuild.
-
-Replace existing repo files and commit. Vercel will redeploy.
+{
+  "scripts": {"dev": "next dev", "build": "next build", "start": "next start"},
+  "dependencies": {"next": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest"},
+  "devDependencies": {"typescript": "latest", "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest"}
+}

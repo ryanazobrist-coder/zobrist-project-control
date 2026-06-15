@@ -1,9 +1,0 @@
-# Zobrist Project Control - V3 AIA Billing
-
-Adds AIA Billing / SOV workflow:
-- Pay applications with application number, invoice number, period, status, and previous paid/certified value.
-- SOV worksheet with scheduled value, previous work, this period, stored materials, total to date, percent, balance, and retainage.
-- Approved owner COs can be synced into SOV as new billing lines.
-- Summary + Continuation Sheet view can be printed/saved as PDF.
-
-Replace your existing repo files with this version and commit. Vercel will redeploy.

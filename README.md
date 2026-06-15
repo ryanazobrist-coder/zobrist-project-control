@@ -1,5 +1,13 @@
 {
-  "scripts": {"dev": "next dev", "build": "next build", "start": "next start"},
-  "dependencies": {"next": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest"},
-  "devDependencies": {"typescript": "latest", "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest"}
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.23",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "^0.468.0"
+  }
 }

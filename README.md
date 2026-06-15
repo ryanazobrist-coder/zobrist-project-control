@@ -1,1 +1,1 @@
-{"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"14.2.23","react":"18.3.1","react-dom":"18.3.1","lucide-react":"^0.468.0"}}
+V4 merged app: restores project control functions and adds SOV/AIA billing. No TypeScript/Tailwind/PostCSS.
